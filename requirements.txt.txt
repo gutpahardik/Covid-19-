@@ -1,0 +1,8 @@
+numpy 
+pandas 
+plotly.graph_objs 
+dash
+dash_core_components 
+dash_html_components 
+dash.dependencies  Input,Output
+plotly.express 
