@@ -2,16 +2,12 @@
 
 Interactive **COVID-19 Pandemic Dashboard** built using **Dash**, **Plotly**, and **Pandas**. Visualizes state-wise COVID-19 data, commodity usage, and zone distribution.
 
----
-
 ## Technologies Used
 - Python 3
 - Dash
 - Plotly
 - Pandas
 - Bootstrap 5
-
----
 
 ## Features
 1. **Key Metrics Cards**
@@ -32,37 +28,26 @@ Interactive **COVID-19 Pandemic Dashboard** built using **Dash**, **Plotly**, an
 5. **Responsive Layout**
    - Bootstrap 5 based
 
----
-
 ## Dataset
 - `state_wise_daily data file IHHPET.csv`
 - Columns include: `State`, `Status`, `Total`, `Hospitalized`, `Recovered`, `Deceased`, `Mask`, `Sanitizer`, `Oxygen`, `Zone`
 
----
-
-## Installation
+##Installation 
 1. Clone the repository:
-```bash
-git clone <repository_url>
-cd <repository_folder>
-Install dependencies:
+````bash
+git clone<repository_url>
+cd<repository_folder>
 
-How It Works
+## How it Works
+-Reads data using Pandas.
+-Calculates key metrics dynmically.
+-Creates interactive charts using Plotly.
+-Uses Dash callbacks for dropdown-based interactivity.
 
-Reads data using Pandas.
+## Future Enhancements
+-Add time-series anaysis of Covid-19 cases.
+-Integrate real-time API for live data.
+-Include predictive analytics for future case trends.
+-Enhance visualizations with hover info and color-coded zones. 
 
-Calculates key metrics dynamically.
 
-Creates interactive charts using Plotly.
-
-Uses Dash callbacks for dropdown-based interactivity.
-
-Future Enhancements
-
-Add time-series analysis of COVID-19 cases.
-
-Integrate real-time API for live data.
-
-Include predictive analytics for future case trends.
-
-Enhance visualizations with hover info and color-coded zones.
