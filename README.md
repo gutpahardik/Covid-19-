@@ -47,22 +47,8 @@ git clone <repository_url>
 cd <repository_folder>
 Install dependencies:
 
-bash
-Copy code
-pip install dash plotly pandas
-Place the dataset in the project folder.
-
-Run the app:
-
-bash
-Copy code
-python app.py
-Open in browser:
-
-cpp
-Copy code
-http://127.0.0.1:8050/
 How It Works
+
 Reads data using Pandas.
 
 Calculates key metrics dynamically.
@@ -72,6 +58,7 @@ Creates interactive charts using Plotly.
 Uses Dash callbacks for dropdown-based interactivity.
 
 Future Enhancements
+
 Add time-series analysis of COVID-19 cases.
 
 Integrate real-time API for live data.
@@ -79,6 +66,3 @@ Integrate real-time API for live data.
 Include predictive analytics for future case trends.
 
 Enhance visualizations with hover info and color-coded zones.
-
-pgsql
-Copy code
